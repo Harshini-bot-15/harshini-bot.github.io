@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Personal Webpage</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramesh Harshini | Personal Webpage</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header class="hero">
     <h1>Hi, I'm Ramesh Harshini 👋</h1>
-    <p>Welcome to my personal webpage!</p>
+    <p>Aspiring Data Scientist | NTU EEE | Passionate about AI and Analytics</p>
   </header>
 
   <section class="about">
     <h2>About Me</h2>
-    <p>I am a student at NTU studying Electrical & Electronic Engineering, passionate about AI and data science.</p>
+    <p>I am a Year 1 student at NTU studying Electrical & Electronic Engineering, passionate about data science, artificial intelligence, and impactful tech solutions.</p>
   </section>
 
   <section class="projects">
     <h2>Projects</h2>
-    <ul>
-      <li>🔍 Netflix Clustering Recommendation System</li>
-      <li>🤖 Telegram Chatbot using OpenAI GPT API</li>
-      <li>📊 Data Dashboard using Python and Plotly</li>
-    </ul>
+    <div class="project-grid">
+      <div class="card">
+        <h3>📊 Netflix Clustering</h3>
+        <p>Used K-means clustering on show attributes to identify hidden viewer patterns for better recommendations.</p>
+      </div>
+      <div class="card">
+        <h3>🤖 Telegram GPT Chatbot</h3>
+        <p>Built a Telegram bot using Flask and OpenAI’s GPT API for real-time conversational AI responses.</p>
+      </div>
+      <div class="card">
+        <h3>📈 Data Dashboard</h3>
+        <p>Created an interactive dashboard using Python and Plotly to visualize trends in large-scale datasets.</p>
+      </div>
+    </div>
   </section>
 
- 
-
-  <script src="script.js"></script>
+  <footer>
+    <p>Connect with me:
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+      <a href="mailto:your@email.com">Email</a>
+    </p>
+  </footer>
 </body>
 </html>
