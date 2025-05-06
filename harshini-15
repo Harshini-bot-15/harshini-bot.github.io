@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Ramesh Harshini👋</h1>
+    <p>Welcome to my personal webpage!</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I am a student at NTU studying Electrical & Electronic Engineering, passionate about AI and data science.</p>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>🔍 Netflix Clustering Recommendation System</li>
+      <li>🤖 Telegram Chatbot using OpenAI GPT API</li>
+      <li>📊 Data Dashboard using Python and Plotly</li>
+    </ul>
+  </section>
+
+ 
+  <script src="script.js"></script>
+</body>
+</html>
